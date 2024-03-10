@@ -16,7 +16,7 @@ param goPort int = 8050
 var goServiceAppName = 'go-app'
 
 param apimName string = 'store-api-mgmt-${uniqueString(resourceGroup().id)}'
-param deployApim bool = true
+param deployApim bool = false
 param isPrivateRegistry bool = false
 
 param containerRegistry string
